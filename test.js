@@ -11,10 +11,10 @@ function tryFn(expFn, errFn) {
 var Bullet = require('./index')
 
 if (!Bullet) {
-    console.log(`import bullet-tool failed!`)
+    console.log(`import @bulletyuan/tool failed!`)
     return;
 }
-console.log(`imported bullet-tool...\n${JSON.stringify(Bullet)}`)
+console.log(`imported @bulletyuan/tool...\n${JSON.stringify(Bullet)}`)
 
 console.log(`===prepare test cookie module===`)
 if (!Bullet.Cookie) {
