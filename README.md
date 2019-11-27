@@ -1,6 +1,6 @@
-# bullet-tool
+# bulletyuan-tool
 
-tool package for **@bullet/**
+tool package for **@bulletyuan/**
 
 ## Core
 
