@@ -1,0 +1,25 @@
+{
+  "name": "bulletyuan-tool",
+  "version": "0.0.1",
+  "description": "utils of frontend",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BulletYuan/bulletyuan-tool.git"
+  },
+  "keywords": [
+    "bulletyuan",
+    "tool",
+    "@bulletyuan/tool"
+  ],
+  "author": "bullet.Y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BulletYuan/bulletyuan-tool/issues"
+  },
+  "homepage": "https://github.com/BulletYuan/bulletyuan-tool#readme"
+}
