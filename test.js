@@ -49,58 +49,6 @@ if (!Bullet.Dom) {
 }
 console.log(`===finished test dom module===\n\n`)
 
-console.log(`===prepare test http-request module===`)
-if (!Bullet.HttpRequest) {
-    console.log(`import http-request module failed`)
-} else {
-    var http = new Bullet.HttpRequest();
-    console.log(`imported http-request module...\n${JSON.stringify(http)}`)
-    tryFn(() => {
-        http.request({
-            url: 'https://restapi.amap.com/v3/ip?key=2cdbcd76e596d7b9891769c4ade8e979&ip=47.244.37.206',
-            dataType: 'json',
-        }).then(res => {
-            console.info(`function request(): \n${JSON.stringify(res)}\n\n`);
-        }).catch(err => {
-            console.error(`function request() has error: \n${err}`);
-        });
-    }, e => {
-        return `function request() excuted faild!\n cause : ${e}`;
-    });
-}
-console.log(`===finished test http-request module===\n\n`)
-
-console.log(`===prepare test image module===`)
-if (!Bullet.Dom) {
-    console.log(`import image module failed`)
-} else {
-    var image = new Bullet.Image();
-    console.log(`imported image module...\n${JSON.stringify(dom)}`)
-    tryFn(() => {
-        image.zipImage({
-            imgSrc: '',
-        });
-    }, e => {
-        return `function zipImage() excuted faild!\n cause : ${e}`;
-    });
-}
-console.log(`===finished test image module===\n\n`)
-
-console.log(`===prepare test scroll module===`)
-if (!Bullet.ScrollPage) {
-    console.log(`import scroll module failed`)
-} else {
-    console.log(`imported scroll module...\n${JSON.stringify(dom)}`)
-    tryFn(() => {
-        new Bullet.ScrollPage({
-            el: null
-        });
-    }, e => {
-        return `function ScrollPage() excuted faild!\n cause : ${e}`;
-    });
-}
-console.log(`===finished test scroll module===\n\n`)
-
 console.log(`===prepare test time module===`)
 if (!Bullet.Time) {
     console.log(`import time module failed`)

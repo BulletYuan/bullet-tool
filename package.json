@@ -1,5 +1,5 @@
 {
-  "name": "bulletyuan-tool",
+  "name": "@bulletyuan/tool",
   "version": "0.0.1",
   "description": "utils of frontend",
   "main": "index.js",

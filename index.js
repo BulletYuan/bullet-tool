@@ -1,9 +1,9 @@
 'use strict';
 
-var Cookie = require('./components/Cookie');
-var Dom = require('./components/Dom');
-var Time = require('./components/Time');
-var Url = require('./components/Url');
+var Cookie = require('./core/Cookie');
+var Dom = require('./core/Dom');
+var Time = require('./core/Time');
+var Url = require('./core/Url');
 
 module.exports = {
     Cookie,
