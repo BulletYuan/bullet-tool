@@ -1,6 +1,6 @@
 {
   "name": "@bulletyuan/tool",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "utils of frontend",
   "main": "index.js",
   "typings": "index.d.ts",
