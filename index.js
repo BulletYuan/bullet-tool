@@ -1,13 +1,13 @@
 'use strict';
 
-var Cookie = require('./core/Cookie');
-var Dom = require('./core/Dom');
-var Time = require('./core/Time');
-var Url = require('./core/Url');
+var core = require('./core');
+var http = require('./http');
+var image = require('./image');
+var scroller = require('./scroller');
 
 module.exports = {
-    Cookie,
-    Dom,
-    Time,
-    Url
+    core,
+    http,
+    image,
+    scroller
 }
